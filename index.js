@@ -19,7 +19,7 @@ function digPow(n, p) {
     start++;
   }
 
-  if (sum % n == 0) {
+  if (sum % n === 0) {
     return sum / n;
   }
 
